@@ -231,11 +231,10 @@ Your complying with the following conditions of use. These are important
 conditions of this License, and if You fail to follow them, You will be
 in material breach of its terms.
 
-4.2 Notices. If You Publicly Convey this Database, any Derivative
-Database, or the Database as part of a Collective Database, then You
-must: 
+4.2 Notices. If You Publicly Convey this Database, including as part of a
+Derivative Database or as part of a Collective Database, then You must:
 
-  a. Do so only under the terms of this License;
+  a. Indicate the Database is licensed under the terms of this License;
 
   b. Include a copy of this License or its Uniform Resource Identifier (URI)
   with the Database or Derivative Database, including both in the
