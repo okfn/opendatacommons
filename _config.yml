@@ -2,7 +2,7 @@
 title: OpenDataCommons
 short_title: OpenDataCommons
 description: |
-    Open Data Commons is the home of a set of legal tools to help you provide and use Open Data
+    Legal tools to help you provide and use Open Data
 baseurl: ""
 url: "https://opendatacommons.org" # the base hostname & protocol for your site
 github_username:  okfn
