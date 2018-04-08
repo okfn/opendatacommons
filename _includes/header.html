@@ -13,26 +13,52 @@
     </li>
 
     <li>
-      <a href="{{ site.baseurl }}/pages/">Pages</a>
+      <a href="{{ site.baseurl }}/licenses/">Licenses</a>
+      <ul>
+        <li {% if url_last == 'licenses' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/licenses/odbl/">Open Data Commons Open Database License (ODbL)</a>
+        </li>
+        <li {% if url_last == 'licenses' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/licenses/by/">Open Data Commons Attribution License</a>
+        </li>
+        <li {% if url_last == 'licenses' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/licenses/pddl/">Open Data Commons Public Domain Dedication and License (PDDL)</a>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="{{ site.baseurl }}/norms/">Norms</a>
+      <ul>
+        <li {% if url_last == 'licenses' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/norms/odc-by-sa/">ODC Attribution-Sharealike Community Norms</a>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="{{ site.baseurl }}/faq/">FAQ</a>
+      <ul>
+        <li {% if url_last == 'licenses' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/faq/licenses-faq/">Licenses FAQ</a>
+        </li>
+      </ul>
+    </li>
+
+    <li {% if url_parts contains 'news' %}class="Selected"{% endif %}>
+      <a href="{{ site.baseurl }}/news/">News</a>
+    </li>
+
+    <li>
+      <a href="{{ site.baseurl }}/about/">About</a>
       <ul>
         <li {% if url_last == 'pages' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/pages/">Page One</a>
+          <a href="{{ site.baseurl }}/about/advisory-council/">Advisory Council</a>
         </li>
-        <li {% if url_last == 'page-two' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/pages/page-two/">Page Two</a>
-        </li>
-        <li {% if url_last == 'page-three' %}class="Selected"{% endif %}>
-          <a href="{{ site.baseurl }}/pages/page-three/">Page Three</a>
+        <li {% if url_last == 'contact' %}class="Selected"{% endif %}>
+          <a href="{{ site.baseurl }}/about/contact/">Contact</a>
         </li>
       </ul>
     </li>
     
-    <li {% if url_parts contains 'posts' %}class="Selected"{% endif %}>
-      <a href="{{ site.baseurl }}/posts/">Posts</a>
-    </li>
-    
-    <li {% if url_last ==  'credits' %}class="Selected"{% endif %}>
-      <a href="{{ site.baseurl }}/credits/">Credits</a>
-    </li>
-
 </nav>
