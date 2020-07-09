@@ -1,3 +1,3 @@
 # OpenDataCommons.org
 
-The opendatacommons.org website
+Legacy Open Data Commons website. Moved to https://github.com/okfn/opendatacommons.org
